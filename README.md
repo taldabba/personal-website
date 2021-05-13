@@ -1,3 +1,2 @@
-# personal-website test
-
-# chungus chungus 3123
+# personal-website by taim
+Welcome to my personal website!

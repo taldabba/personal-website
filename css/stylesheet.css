@@ -15,9 +15,13 @@
     height:500px;
 }
 
-.home-text{
+.home-text {
     padding-bottom: 15px;
     font-family: 'Roboto Mono', 'courier','monospace';
     font-size: 14px;
     font-weight: 500;
+}
+
+a {
+    text-decoration: none;
 }
