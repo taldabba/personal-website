@@ -16,12 +16,18 @@
 }
 
 .home-text {
-    padding-bottom: 15px;
+    padding-bottom: 12px;
     font-family: 'Roboto Mono', 'courier','monospace';
     font-size: 14px;
     font-weight: 500;
 }
 
 a {
+    text-align: center;
+    line-height: 12px;
+    display: inline-block;
     text-decoration: none;
+    padding: 12px;
+    margin: 12px;
+    height: 10px;
 }
