@@ -49,3 +49,7 @@ a {
     margin: 12px;
     height: 10px;
 }
+
+p, a span {
+    color:black;
+}
