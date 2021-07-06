@@ -1,3 +1,22 @@
+a {
+    text-align: center;
+    line-height: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    margin: 12px;
+    height: 10px;
+}
+
+p {
+    font-family: ;
+}
+
+p, a span {
+    color:black;
+}
+
 .home {
     margin: auto;
     text-align: center;
@@ -39,17 +58,14 @@
     font-weight: 500;
 }
 
-a {
-    text-align: center;
-    line-height: 12px;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    padding: 12px;
-    margin: 12px;
-    height: 10px;
+.github-logo {
+    height:50px;
 }
 
-p, a span {
-    color:black;
+.autogs-logo {
+    height: 150px;
+}
+
+#autogs-github {
+    display: block;
 }
