@@ -2,9 +2,16 @@ html {
     font-size: 100%;
 }
 
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    height: 100%;
+    /* background-image: url(../images/geometric_background.jpg), linear-gradient(white 60%, rgba(255, 255, 255, 1)); */
+    /* background-repeat: no-repeat;     */
 }
 
 a {
@@ -112,4 +119,12 @@ p, h2 {
     right: 0;
     bottom: 0;
     height: inherit;
+}
+
+#background {
+    /* width: 100%; */
+    /* margin-top: 35%; */
+    /* position: absolute; */
+    /* z-index: -1; */
+    background-image: url(../images/geometric_background-clear.png);
 }

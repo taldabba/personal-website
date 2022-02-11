@@ -1,0 +1,7 @@
+.projectCard {
+    width: 55rem;
+    height: 20rem;
+    border-radius: 5%;
+    background-color: brown;
+    margin: 3.5rem;
+}
