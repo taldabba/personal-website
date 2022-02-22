@@ -1,0 +1,52 @@
+.aboutheader {
+    background-color: royalblue;
+    font-size: 2em;
+    height: fit-content;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.about {
+    background-color: red;
+    height: 15em;
+    width: 45em;
+}
+
+.aboutinfo {
+    background-color: khaki;
+    position: relative;
+    margin-left: 2em;
+    margin-top: 1em;
+    width: 29.8em;
+    height: fit-content;
+    text-align: left;
+}
+
+.aboutpicture {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: inherit;
+}
+
+.home {
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.home-text {
+    padding-bottom: 12px;
+    font-family: 'Roboto Mono', 'courier','monospace';
+    font-size: 1em;
+    font-weight: 500;
+}
