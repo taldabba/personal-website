@@ -22,8 +22,20 @@
     height:50px;
 }
 
-
-
 #autogs-github {
     display: block;
+}
+
+.projectCardText {
+    font-size: 4rem;
+    padding-top: 1rem;
+    font-weight: 800;
+} 
+
+.wmtlogo {
+    width: 6.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 1.5rem;
 }
