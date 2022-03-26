@@ -45,10 +45,6 @@
     top: 6rem;
 }
 
-/* #autoGSDescWords {
-    float: left;
-} */
-
 .projectThumbnail {
     width: 15rem;
     height: 12rem;
@@ -86,6 +82,31 @@
     margin-left: auto;
     margin-right: 0;
     margin-bottom: 2rem;
+    margin-top: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#vertap-logo {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1.5rem;
+}
+
+#vertapImg {
+    width: 10rem;
+    margin-left: auto;
+    margin-right: 2rem;
+    margin-bottom: -1rem;
     margin-top: auto;
     position: absolute;
     left: 0;
