@@ -20,6 +20,11 @@
     position: absolute;
     bottom: 0;
     left: 1rem;
+    text-align: left;
+}
+
+.description {
+    padding: 1rem;
 }
 
 #autoGSDesc, #autoGSThumbnail {
@@ -39,6 +44,10 @@
     height: 8rem;
     top: 6rem;
 }
+
+/* #autoGSDescWords {
+    float: left;
+} */
 
 .projectThumbnail {
     width: 15rem;
@@ -64,6 +73,32 @@
     margin-left: auto;
     margin-right: -3.5rem;
     margin-bottom: -5.5rem;
+    margin-top: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#autoGSImg {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    margin-top: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#benchyBoatImg {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: -4rem;
     margin-top: auto;
     position: absolute;
     left: 0;
