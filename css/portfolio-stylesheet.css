@@ -25,6 +25,10 @@
 
 .description {
     padding: 1rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.15rem;
 }
 
 #autoGSDesc, #autoGSThumbnail {
