@@ -1,0 +1,59 @@
+.contact-box {
+    width: 22rem;
+    background-color: #fff;
+    top: -250%;
+    left: 50%;
+    border: solid rgb(230, 230, 230) 0.25rem;
+    box-shadow: 0.5rem 0.75rem 1rem rgb(173, 173, 173);
+    transform: translate(-50%, -175%);
+    position: relative;
+    margin-top: 200%;
+    border-radius: 5%;
+}
+
+.contact-form {
+    margin: 1.5rem 0;
+}
+
+.input-field {
+    width: 15rem;
+    height: 1.75rem;
+    margin-top: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: none;
+    font-family: 'Roboto Mono', 'courier','monospace';
+}
+
+#input-textarea {
+    height: 10rem;
+    padding-top: 0.35rem;
+    resize: none;
+    margin-bottom: 0.25rem;
+}
+
+.sendMessageButton {
+    width: 4rem;
+    height: fit-content;
+    text-align: center;
+    padding: 0.25rem;
+    background-color: white;
+    border: black solid 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#sendMessage {
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto Mono', 'courier','monospace';
+    margin: 0;
+    font-size: 0.9rem;
+}

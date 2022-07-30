@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../css/main-stylesheet.css">
 	<link rel="stylesheet" href="../css/contact-stylesheet.css">
+	<link rel="stylesheet" href="../css/portfolio-stylesheet.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,11 +22,20 @@
         <img class="secondary-logo" src="../images/taim/taim-logo.png" alt="Taim's Star Logo" title="Go To Home">
         </a>
 
-		<form class="back" id="main-button">
+		<form class="back" id="contact-button">
 			<input id="back-button" name="back" type="button" value="←" onclick="history.back()">
 			<label id="back-button-label" for="back">GO BACK</label>
 		</form>	
-
+		
+		<div class="contact-box">
+			<form class="contact-form" action="">
+				<input type="text" class="input-field" placeholder="Your name">
+				<input type="text" class="input-field" placeholder="Your e-mail">
+				<input type="text" class="input-field" placeholder="Subject">
+				<textarea type="text" class="input-field" id="input-textarea" placeholder="Your message"></textarea>
+			</form>
+			<button type="button" class="sendMessageButton" id="sendMessage">Send</button>
+		</div>
     </div>
 
 </body>
