@@ -1,38 +1,42 @@
 .aboutheader {
-    background-color: royalblue;
+    /* background-color: royalblue; */
     font-size: 2em;
     height: fit-content;
     width: fit-content;
     left: 0;
     right: 0;
-    margin: auto;
+    margin-left: 25%;
+    margin-top: 2%;
 }
 
 .about {
-    background-color: red;
+    /* background-color: red; */
     height: 15em;
     width: 45em;
 }
 
 .aboutinfo {
-    background-color: khaki;
+    /* background-color: khaki; */
     position: relative;
     margin-left: 2em;
     margin-top: 1em;
     width: 29.8em;
     height: fit-content;
     text-align: left;
+    line-height: 1.5em;
+    
 }
 
 .aboutpicture {
     position: absolute;
     right: 0;
-    bottom: 0;
+    margin-top: -25%;
+    margin-right: 3%;
     height: inherit;
 }
 
 .home {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     margin: auto;
     text-align: center;
     position: fixed;
@@ -49,4 +53,56 @@
     font-family: 'Roboto Mono', 'courier','monospace';
     font-size: 1em;
     font-weight: 500;
+}
+
+.interests {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 5rem;
+}
+
+.interestsheader {
+    /* background-color: blueviolet; */
+    font-size: 2em;
+    padding-bottom: 0.5rem;
+}
+
+.interest-icon {
+    width: 7.5rem;
+    padding: 1.5rem;
+}
+
+.interests-describe {
+    display: inline-block;
+    font-style: italic;
+    font-size: 1.25rem;
+    padding: 1.5rem;
+    padding-bottom: 2rem;
+    transform: translate(-19%, -50%);
+}
+
+#weights {
+    transform: translate(-22%, -50%);
+}
+
+#cooking {
+    transform: translate(-35%, -50%);
+}
+
+#designing {
+    transform: translate(-25%, -50%);
+}
+
+#birds {
+    transform: translate(-10%, -50%);
+}
+
+.about-home {
+    padding: 0.5rem;:border: w;
+    width: 50rem;
+    height: 35rem;
+    border: solid rgb(230, 230, 230) 0.25rem;
+    box-shadow: 0.5rem 0.75rem 1rem rgb(173, 173, 173);
+    border-radius: 2%;
 }

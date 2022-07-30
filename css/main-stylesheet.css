@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
     line-height: 12px;
     display: inline-block;
@@ -87,4 +87,9 @@ label {
 #back-button-label {
     text-align: right;
     display: inline-block;
+}
+
+#about-button {
+    margin-top: -46%;
+    left: -2.5%;
 }

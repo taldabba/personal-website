@@ -14,7 +14,7 @@
 .projectDesc {
     width: 20rem;
     height: 12rem;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     margin-top: auto;
     margin-bottom: auto;
     position: absolute;
@@ -52,7 +52,7 @@
 .projectThumbnail {
     width: 15rem;
     height: 12rem;
-    background-color: red;
+    /* background-color: red; */
     margin-top: auto;
     margin-bottom: auto;
     position: absolute;
