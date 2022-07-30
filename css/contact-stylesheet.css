@@ -5,9 +5,8 @@
     left: 50%;
     border: solid rgb(230, 230, 230) 0.25rem;
     box-shadow: 0.5rem 0.75rem 1rem rgb(173, 173, 173);
-    transform: translate(-50%, -175%);
+    transform: translate(-50%, 5%);
     position: relative;
-    margin-top: 200%;
     border-radius: 5%;
 }
 
@@ -56,4 +55,16 @@
     font-family: 'Roboto Mono', 'courier','monospace';
     margin: 0;
     font-size: 0.9rem;
+}
+
+.contactLogo {
+    display: inline-block;
+    position: relative;
+    transform: translate(0, 5rem);
+    margin: -0.5rem 1rem;
+    width: 3.5rem;
+}
+
+#linkedinLogo {
+    filter: brightness(0);
 }
