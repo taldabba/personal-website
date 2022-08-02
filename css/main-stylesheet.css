@@ -22,8 +22,13 @@ a {
     margin-bottom: 2em;
 }
 
-p, h2 {
+p, h2, h1 {
     font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
 }
 
 .logo {
@@ -97,4 +102,18 @@ label {
 #contact-button {
     margin-top: -32%;
     left: -65%;
+}
+
+.project {
+    /* background-color: aqua; */
+    padding: 1rem;
+    display: block;
+    position: absolute;
+    transform: translate(-15.5rem, 0);
+    width: 40rem;
+    text-align: left;
+}
+
+p, project {
+    line-height: 1.6rem;
 }

@@ -26,6 +26,57 @@
 			<input id="back-button" name="back" type="button" value="←" onclick="history.back()">
 			<label id="back-button-label" for="back">GO BACK</label>
 		</form>
+
+		<div class="project">
+			<h1>What?</h1> 
+			<br>
+			<p>
+				An attachment to a tap wrench that uses an IMU (inertial measurement unit), 
+				specifically the gyroscope part to track the angular position of the tap in 
+				space. A button and RGB LED allows the user to set the position by pressing 
+				the button, and the RGB LED provides feedback on how straight they are tapping 
+				through the hole by representing green for “aligned”, and becomes more red as 
+				they deviate from the true position they set by pressing the button. By finding 
+				the true position of the hole, a cone part is inserted into the tap wrench 
+				until it fits. Then, the user can set the position and produce a well-aligned 
+				tap. 
+			</p>
+			<br>
+			
+			<h1>Why?</h1> 
+			<br>
+			<p>
+				When I took manufacturing in high school, we were taught how to do tapping 
+				manually. A critical aspect of tapping by hand is making sure that the tap is 
+				aligned to the hole, because you do not want a thread that goes sideways, 
+				especially when you screw in something. The Vertap project is directed towards 
+				high school students or anyone trying to learn manual tapping.
+			</p>
+			<br>
+
+			<h1>Images</h1>
+			<br>
+
+			<h1>Current Challenges</h1>
+			<br>
+			<ul>
+				<p>
+					First challenge is filtering the raw data that the IMU outputs. Research 
+					has to be done (how they work, and how to implement). I am currently 
+					looking into Kalman filters, although that might be a little more complex
+				</p>
+				<br>
+				<p>
+					The RGB LED drastically changes from green to red, so an algorithm must be 
+					carefully designed to output the colours smoothly (no rough transitions). 
+					Since the IMU outputs raw data, the LED is susceptible to the noise from the 
+					gyroscope which could be one of the reasons with the LED issue
+				</p>
+			</ul>
+			<br>
+
+			<h1>CURRENTLY WORK IN PROGRESS!</h1>
+		</div>
 	</div>
 </body>
 </html>
