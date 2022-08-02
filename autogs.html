@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/main-stylesheet.css">
 	<link rel="stylesheet" href="css/about-stylesheet.css">
 	<link rel="stylesheet" href="css/projects/autogs.css">
+	<script src="script.js" defer></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,6 +50,31 @@
 			<br>
 
 			<h1>Images</h1>
+			<br>
+			<div class="carousel" id="autogs-carousel" data-carousel>
+				<button class="carousel-button prev" data-carousel-button="prev">&#8592;</button>
+				<button class="carousel-button next" data-carousel-button="next">&#8594;</button>
+				<ul data-slides>
+					<li class="slide" id="autogs-slide" data-active>
+						<img src="images/autoGS/GHpic3.jpg" 
+						     alt="Render of the Deflection Tester"
+							 id="image1">
+					</li>
+
+					<li class="slide" id="autogs-slide">
+						<img src="images/autoGS/GHpic2.jpg" 
+						     alt="Deflection Tester with Assembly Drawing"
+						     id="image2">
+					</li>
+
+					<li class="slide" id="autogs-slide">
+						<img src="images/autoGS/lcdNames.jpg" 
+						     alt="Our names on a LCD Display"
+							 id="image3">
+					</li>
+				</ul>
+			</div>
+			<br>
 
 			<h1>Challenges</h1><br>
 			<ul>
@@ -77,6 +103,7 @@
 			<br>
 
 			<h1>Result</h1>
+			<br>
 			<ul>
 				<p>
 					The result was an actual working automated greenhouse system; what we, or 

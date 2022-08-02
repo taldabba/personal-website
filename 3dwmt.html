@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/main-stylesheet.css">
 	<link rel="stylesheet" href="css/about-stylesheet.css">
+	<link rel="stylesheet" href="css/projects/3dwmt.css">
+	<script src="script.js" defer></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,6 +55,46 @@
 
 			<h1>Images</h1>
 			<br>
+			<div class="carousel" id="wmt-carousel" data-carousel>
+				<button class="carousel-button prev" data-carousel-button="prev">&#8592;</button>
+				<button class="carousel-button next" data-carousel-button="next">&#8594;</button>
+				<ul data-slides>
+					<li class="slide" id="wmt-slide" data-active>
+						<img src="images/3DWMT/benchyBoat.png" 
+						     alt="Benchy Boat"
+							 id="image1">
+					</li>
+
+					<li class="slide" id="wmt-slide">
+						<img src="images/3DWMT/gearFidgetSpinner.png" 
+						     alt="Gear Fidget Spinner"
+						     id="image2">
+					</li>
+
+					<li class="slide" id="wmt-slide">
+						<img src="images/3DWMT/stanleyCup.png" 
+						     alt="Stanley Cup"
+							 id="image3">
+					</li>
+					
+					<li class="slide" id="wmt-slide">
+						<img src="images/3DWMT/toyTrain.png" 
+						     alt="Toy Train"
+							 id="image4">
+					</li>
+					<li class="slide" id="wmt-slide">
+						<img src="images/3DWMT/walkingMechanism.png" 
+						     alt="Walking Mechanism"
+							 id="image5">
+					</li>
+					<li class="slide" id="wmt-slide">
+						<img src="images/3DWMT/wrench.png" 
+						     alt="WMT Tech Wrench"
+							 id="image6">
+					</li>
+				</ul>
+			</div>
+			<br>
 
 			<h1>Challenges</h1>
 			<br>
@@ -69,7 +111,23 @@
 			</ul>
 			<br>
 
-			<!-- <h1>Result</h1> -->
+			<h1>YouTube</h1>
+			<br>
+			<p>
+				As mentioned, we created YouTube videos for our club members. You can check out 
+				3D-WMT's YouTube channel below!
+			</p>
+			<br>
+			<script src="https://apis.google.com/js/platform.js"></script>
+
+			<div class="g-ytsubscribe" 
+			     data-channelid="UCOHibG1EG7wL0thMKycH-Ow" 
+				 data-layout="full" 
+				 data-theme="default" 
+				 data-count="default"
+				 id="youtube">
+			</div>
+			<br><br><br><br>
 		</div>
     </div>
 </body>

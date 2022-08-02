@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/main-stylesheet.css">
 	<link rel="stylesheet" href="css/about-stylesheet.css">
+	<link rel="stylesheet" href="css/projects/deflection.css">
+	<script src="script.js" defer></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +30,7 @@
 		</form>
 
 		<div class="project">
-			<h2>What?</h2>
+			<h1>What?</h1>
 			<br>
 			<p>
 				The Grade 9’s taking the “Exploring Tech” course had an upcoming competition, 
@@ -39,7 +41,7 @@
 			</p>
 			<br>
 
-			<h2>Why?</h2>
+			<h1>Why?</h1>
 			<br>
 			<p>
 				As I was working with my tech teacher who knew I was getting into 3D-designing 
@@ -50,10 +52,34 @@
 			</p>
 			<br>
 
-			<h2>Images</h2>
+			<h1>Images</h1>
+			<br>
+			<div class="carousel"data-carousel>
+				<button class="carousel-button prev" id="autogs-button" data-carousel-button="prev">&#8592;</button>
+				<button class="carousel-button next" id="autogs-button" data-carousel-button="next">&#8594;</button>
+				<ul data-slides>
+					<li class="slide" data-active>
+						<img src="images/deflectionTester/deflectionTesterRender.png" 
+						     alt="Render of the Deflection Tester"
+							 id="image1">
+					</li>
+
+					<li class="slide">
+						<img src="images/deflectionTester/deflectionTester1.jpg" 
+						     alt="Deflection Tester with Assembly Drawing"
+						     id="image2">
+					</li>
+
+					<li class="slide">
+						<img src="images/deflectionTester/deflectionTester2.jpg" 
+						     alt="Setup of Deflection Tester"
+							 id="image3">
+					</li>
+				</ul>
+			</div>
 			<br>
 
-			<h2>Challenges</h2>
+			<h1>Challenges</h1>
 			<br>
 			<ul>
 				<p>One of the challenges was being the designer, and having to come up with 
@@ -76,7 +102,7 @@
 			</ul>
 			<br>
 
-			<h2>Result</h2>
+			<h1>Result</h1>
 			<br>
 			<p>
 				The competition was a success! They live-streamed it, and it was really cool to 
@@ -85,6 +111,7 @@
 				bridges that the Grade 9’s worked hard for. Jokes aside, the best bridge was able 
 				to withstand over 500 lb of force, which took first place by miles ahead! 
 			</p>
+			<br><br><br>
 		</div>
     </div>
 	

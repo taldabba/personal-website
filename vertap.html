@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/main-stylesheet.css">
 	<link rel="stylesheet" href="css/about-stylesheet.css">
+	<link rel="stylesheet" href="css/projects/vertap.css">
+	<script src="script.js" defer></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +56,66 @@
 			</p>
 			<br>
 
+			<h1>Process</h1>
+			<br>
+			<p>
+				The first step in the process was taking a tap wrench, and measuring its 
+				dimensions. This allowed to design and create the cone plunger part in 
+				SolidWorks
+			</p>
+			<br>
+			<p>
+				Next step was acquiring a microcontroller and IMU. For the prototype, I 
+				am using an Arduino Nano and a MPU-6050. I previously used a MPU-9250, 
+				another IMU produced by the same manufacturer.
+			</p>
+			<br>
+			<p>
+				Afterwards, the coding part comes along. I need to get the IMU outputting 
+				raw data and ensuring the data output makes sense (the gyroscope values 
+				spike when I shake the prototype)
+			</p>
+			<br>
+			<p>
+				To complete the prototype, I wire up a button and a RGB LED to the IMU. I also 
+				program it in the Arduino IDE. I program the button to set the position and 
+				the LED to change its colour to show how close you are to the position it was 
+				set to, as talked about in the “What?” section
+			</p>
+			<br>
+			<p>
+				Currently I am working on the project, I am thinking of creating a more 
+				advanced program and my own library for the IMU, to learn more about the 
+				entirety of the process of working with IMUs (reading datasheets, low-level 
+				programming, bit manipulation, etc.)
+			</p>
+			<br>
+
 			<h1>Images</h1>
+			<br>
+			<div class="carousel"data-carousel>
+				<button class="carousel-button prev" data-carousel-button="prev">&#8592;</button>
+				<button class="carousel-button next" data-carousel-button="next">&#8594;</button>
+				<ul data-slides>
+					<li class="slide" data-active>
+						<img src="images/vertap/prototype1.jfif" 
+						     alt="Prototyping"
+							 id="image1">
+					</li>
+
+					<li class="slide">
+						<img src="images/vertap/data1.jfif"
+						     alt="Raw Data Output Stream"
+						     id="image2">
+					</li>
+
+					<li class="slide">
+						<img src="images/vertap/data2.png" 
+						     alt="Data Collection of Raw Data Output"
+							 id="image3">
+					</li>
+				</ul>
+			</div>
 			<br>
 
 			<h1>Current Challenges</h1>
@@ -75,7 +136,13 @@
 			</ul>
 			<br>
 
-			<h1>CURRENTLY WORK IN PROGRESS!</h1>
+			<h1 id="WIP">CURRENTLY WORK IN PROGRESS!</h1>
+			<br>
+			<p>
+				Stay updated on my Vertap project through my
+				<a href="https://twitter.com/taimech_" target="_blank" id="twitter">Twitter</a> 
+				account!
+			</p>
 		</div>
 	</div>
 </body>

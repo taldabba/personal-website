@@ -117,3 +117,90 @@ label {
 p, project {
     line-height: 1.6rem;
 }
+
+.carousel {
+    background-color:aqua;
+    position: relative;
+    width: 40rem;
+    height: 50rem;
+    max-height: fit-content;
+}
+
+#autogs-carousel {
+    width: 40rem;
+    height: 20rem;
+}
+
+#wmt-carousel {
+    width: 40rem;
+    height: 40rem;
+}
+
+.carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slide {
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+}
+
+.slide > img {
+    display: block;
+    width: 40rem;
+    height: 50rem;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#autogs-slide > img {
+    width: 40rem;
+    height: 20rem;
+}
+
+#wmt-slide > img {
+    width: 40rem;
+    height: 40rem;
+}
+
+.slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+
+.carousel-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    font-family: 'Roboto Mono', 'courier','monospace';
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+#autogs-button {
+    transform: translateY(20%);
+}
+
+.carousel-button.prev {
+    left: -4rem;
+}
+
+.carousel-button.next {
+    right: -4rem;
+}
+
+.carousel-button:hover {
+    cursor: pointer;
+}
