@@ -11,6 +11,10 @@
     position: relative;
 }
 
+#deflection {
+    margin-top: 1rem;
+}
+
 .projectDesc {
     width: 20rem;
     height: 12rem;
@@ -191,4 +195,10 @@
     font-family: 'Roboto Mono', 'courier','monospace';
     margin: 0;
     font-size: 1rem;
+}
+
+#note {
+    font-family: 'Roboto Mono', 'courier','monospace';
+    font-style: italic;
+    font-size: 0.75rem;
 }
